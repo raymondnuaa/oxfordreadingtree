@@ -1,0 +1,1000 @@
+ 1076  cat style.css 
+ 1077  /yym
+ 1078  vi style.css 
+ 1079  cd ..
+ 1080  ls
+ 1081  cd ..
+ 1082  ls
+ 1083  mv blogdb.rar /alidata/server/mysql-5.6.21/data/blogdb/
+ 1084  cd /alidata/
+ 1085  ls
+ 1086  cd server/
+ 1087  cd mysql-5.6.21/
+ 1088  ls
+ 1089  cd data/
+ 1090  ls
+ 1091  cd blogdb
+ 1092  ls
+ 1093  rar -x blogdb.rar 
+ 1094  apt-get install rar
+ 1095  ls
+ 1096  mv blogdb.rar ../
+ 1097  cd ..
+ 1098  mv blogdb blogdb_bak
+ 1099  mkdir blogdb
+ 1100  mv blogdb.rar blogdb/
+ 1101  cd blogdb
+ 1102  ls
+ 1103  rar -x blogdb.rar 
+ 1104  rar x blogdb.rar 
+ 1105  ls
+ 1106  cd blogdb/
+ 1107  ls
+ 1108  mv * ../ 
+ 1109  ls
+ 1110  cd ..
+ 1111  ls
+ 1112  rm blogdb -rf
+ 1113  ls
+ 1114  mv blogdb.rar ../
+ 1115  ls
+ 1116  sed -i "s/yyms.net/e-way.top//blog/g" 'grep yyms.net -rl .'
+ 1117  sed -i "s/yyms.net/e-way.top\/blog/g" 'grep yyms.net -rl .'
+ 1118  sed -i "s/yyms.net/e-way.top\/blog/g" 'grep yyms.net -rl /alidata/server/mysql-5.6.21/data/blogdb'
+ 1119  find -name * |xargs perl -pi -e 's|www.yyms.net|www.e-way.top/blog|g'
+ 1120  find -name * |xargs perl -pi -e:q 's|www.yyms.net|www.e-way.top/blog|g'
+ 1121  find .
+ 1122  find .|xargs grep -i "www.yyms.net"
+ 1123  find .|xargs grep -i "www.e-way.top/blog"
+ 1124  vi blg_options.MYD
+ 1125  cd /alidata/server/nginx/conf
+ 1126  ls
+ 1127  cd vhosts/
+ 1128  ls
+ 1129  mv eway.conf.bak eway.conf
+ 1130  /etc/init.d/nginx restart
+ 1131  mv default.conf default.conf.bak
+ 1132  /etc/init.d/nginx restart
+ 1133  cd /alidata/www/
+ 1134  ls
+ 1135  cd ..
+ 1136  cd server/
+ 1137  ls
+ 1138  cd mysql-5.6.21/
+ 1139  ls
+ 1140  cd data/
+ 1141  ls
+ 1142  cd blogdb
+ 1143  ls
+ 1144  rm *
+ 1145  cd ..
+ 1146  rm blogdb -rf
+ 1147  ls
+ 1148  mv blog blogdb
+ 1149  ls
+ 1150  cd blogdb/
+ 1151  ls
+ 1152  find . -name "*" |xargs grep "yyms"
+ 1153  ls
+ 1154  rm bbb.rar 
+ 1155  ls
+ 1156  grep "yyms.net" -r
+ 1157  cd ..
+ 1158  mv blogdb blogdb_bak
+ 1159  mv blogdb_bak blogdb
+ 1160  cd blogdb/
+ 1161  grep "yyms" . -r
+ 1162  cat blg_user.MYD
+ 1163  vi blg_users.MYD
+ 1164  ls
+ 1165  grep "yyms" . -r
+ 1166  vi blg_options.MYD
+ 1167  ls
+ 1168  cd ..
+ 1169  ls
+ 1170  mv mysql-bin.cd blogdb
+ 1171  ls
+ 1172  cd blogdb/
+ 1173  ls
+ 1174  ls -l
+ 1175  cd ..
+ 1176  chmod -R 777 blogdb
+ 1177  ls
+ 1178  tar xvf blogdb.tar.gz 
+ 1179  cd /alidata/
+ 1180  ls
+ 1181  cd server/
+ 1182  cd ..
+ 1183  ls
+ 1184  cd www/
+ 1185  ls
+ 1186  cd phpwind/
+ 1187  l
+ 1188  sls
+ 1189  ls
+ 1190  cd ..
+ 1191  cd server/
+ 1192  ls
+ 1193  cd mysql-5.6.21/
+ 1194  ls
+ 1195  cd bin/
+ 1196  ls
+ 1197  mysql -u root -p 8c759b2234
+ 1198  mysql -h localhost -u root -p 8c759b2234
+ 1199  mysql -h localhost -u root -p blogdb
+ 1200  mysql -u root -p
+ 1201  cd ..
+ 1202  cd data/
+ 1203  ls
+ 1204  cd mysql/
+ 1205  ls
+ 1206  cd ..
+ 1207  ls
+ 1208  cat mysql-bin.index 
+ 1209  cat auto.cnf 
+ 1210  ls
+ 1211  mv blogdb/ blogdb_bak
+ 1212  cp ewaydb/ blogdb/ -a
+ 1213  ls
+ 1214  cd blogdb
+ 1215  ls
+ 1216  rm *
+ 1217  ls
+ 1218  cd ..
+ 1219  ls
+ 1220  cp blogdb_bak/* blogdb/* 
+ 1221  cp blogdb_bak/* blogdb/
+ 1222  cd blogdb
+ 1223  ls
+ 1224  cd ..
+ 1225  ls
+ 1226  cd ..
+ 1227  ls
+ 1228  cat my.cnf 
+ 1229  :q
+ 1230  ls
+ 1231  cd share/
+ 1232  ls
+ 1233  cd ..
+ 1234  ls
+ 1235  cd sql-bench/
+ 1236  ls
+ 1237  cd Data/
+ 1238  ls
+ 1239  cd ..
+ 1240  ls
+ 1241  cd ..
+ 1242  ls
+ 1243  cd data/
+ 1244  ls
+ 1245  cd blogdb
+ 1246  ls
+ 1247  mysql
+ 1248  mysql -u root -p
+ 1249  mysql
+ 1250  mysql -u root
+ 1251  mysql -u root -p
+ 1252  cd /
+ 1253  ls
+ 1254  cd alidata/
+ 1255  ls
+ 1256  cd www/
+ 1257  ls
+ 1258  cd eway/
+ 1259  cd blog/
+ 1260  ls
+ 1261  cd wp-content/
+ 1262  ls
+ 1263  cd ..
+ 1264  ls
+ 1265  vi wp-con
+ 1266  vi wp-config.php 
+ 1267  /etc/init.d/nginx restart
+ 1268  ls
+ 1269  cd blog/
+ 1270  ls
+ 1271  cd ..
+ 1272  ls
+ 1273  cd ..
+ 1274  ls
+ 1275  rm blog -rf
+ 1276  tar xvf blog_20151121.tar.gz 
+ 1277  ls
+ 1278  cd blog/
+ 1279  ls
+ 1280  cd blog/
+ 1281  ls
+ 1282  cd ..
+ 1283  ls
+ 1284  cd blog/
+ 1285  ls
+ 1286  cd ..
+ 1287  mv blog/ /alidata/server/mysql-5.6.21/data/
+ 1288  ls
+ 1289  vi wp-config.php 
+ 1290  ls
+ 1291  cd wp-content/
+ 1292  ls
+ 1293  cd themes/
+ 1294  ls
+ 1295  cd ..
+ 1296  ls
+ 1297  cd ..
+ 1298  ls
+ 1299  cd wp-content/
+ 1300  ls
+ 1301  cd themes/
+ 1302  ls
+ 1303  cd ..
+ 1304  ls
+ 1305  vi index.php 
+ 1306  ls
+ 1307  cd themes/
+ 1308  ls
+ 1309  cd dmeng2014/
+ 1310  ls
+ 1311  vi header.php 
+ 1312  ls
+ 1313  cd ..
+ 1314  ls
+ 1315  find . -name "*" |xargs grep -H "http://www.yyms.net"
+ 1316  find . |xargs grep -ri "http://www.yyms.net"
+ 1317  cd /alidata/
+ 1318  ls
+ 1319  cd server/
+ 1320  ls
+ 1321  cd mysql-5.6.21/
+ 1322  ls
+ 1323  cd dta
+ 1324  cd data/
+ 1325  ls
+ 1326  cd blogdb
+ 1327  ls
+ 1328  find . |xargs grep -ri "http://www.yyms.net"
+ 1329  vi blg_options.MYD
+ 1330  :q
+ 1331  ls
+ 1332  vi blg_options.frm
+ 1333  ls
+ 1334  cd ..
+ 1335  mv blogdb blogdb--
+ 1336  mv blogdb_bak/ blogdb
+ 1337  mv /alidata/www/eway/bbb.rar ./
+ 1338  ls
+ 1339  rm blogdb--/ -rf
+ 1340  rm blogdb -rf
+ 1341  mkdir blogdb
+ 1342  mv bbb.rar blogdb/
+ 1343  cd blogdb/
+ 1344  rar x bbb.rar 
+ 1345  ls
+ 1346  mv bbb/* ./
+ 1347  ls
+ 1348  rm bbb
+ 1349  rm bbb -rf
+ 1350  ls
+ 1351  cd /alidata/
+ 1352  cd www/
+ 1353  ls
+ 1354  cd eway/
+ 1355  ls
+ 1356  cd blog/
+ 1357  ls
+ 1358  vi wp-config.php 
+ 1359  find . -name "*" |xargs grep "yyms"
+ 1360  ls
+ 1361  grep "yyms.net" -r
+ 1362  grep "yyms" -r
+ 1363  cat index.php 
+ 1364  ls
+ 1365  cat wp-blog-header.php 
+ 1366  grep yyms ./ -r
+ 1367  grep "yyms" ./ -r
+ 1368  cd ..
+ 1369  grep "yyms" . -r
+ 1370  ls
+ 1371  cd ..
+ 1372  ls
+ 1373  cd eway/
+ 1374  ls
+ 1375  cd blog/
+ 1376  ls
+ 1377  cp bbb.rar /alidata/server/mysql-5.6.21/data/
+ 1378  ls
+ 1379  cd /alidata/server/mysql-5.6.21/data/
+ 1380  ls
+ 1381  rm blogdb -rf
+ 1382  rar bbb.rar x
+ 1383  rar x bbb.rar 
+ 1384  ls
+ 1385  mv bbb blogdb
+ 1386  grep "blogdb" . -r
+ 1387  vi mysql-bin.00000
+ 1388  vi mysql-bin.000004
+ 1389  ls
+ 1390  mv mysql-bin.000004 mysql-bin.000004_bak
+ 1391  grep "blogdb" . -r
+ 1392  grep "yyms" . -r
+ 1393  ls
+ 1394  vi mysql-bin.index 
+ 1395  ls
+ 1396  cd ..
+ 1397  grep yyms . -r
+ 1398  vi bin/mysqld
+ 1399  ls
+ 1400  cd data
+ 1401  ls
+ 1402  tar -cvf blogdb.tar.gz blogdb/ 
+ 1403  ls 
+ 1404  mysql -u root
+ 1405  mysql -u root -p
+ 1406  mysql -u root -p 8c759b2234
+ 1407  mysql -u root -p blogdb
+ 1408  mysql -h localhost -u root -p
+ 1409  mysql -u root -p
+ 1410  cd /alidata/
+ 1411  ls
+ 1412  cd www/
+ 1413  ls
+ 1414  cd eway/spece/
+ 1415  ls
+ 1416  grep parts *
+ 1417  grep parts */*
+ 1418  grep "parts count" */*
+ 1419  grep "parts count" */*/*
+ 1420  grep "parts count" */*/*/*
+ 1421  grep "parts" */*
+ 1422  grep count *
+ 1423  grep count */*
+ 1424  grep count */* | less
+ 1425  ipconfig
+ 1426  ifconfig
+ 1427  cd /var/
+ 1428  ls
+ 1429  cd www
+ 1430  ls
+ 1431  cd html/
+ 1432  ls
+ 1433  cd /var
+ 1434  ls
+ 1435  cd tmp/
+ 1436  ls
+ 1437  cd ..
+ 1438  ls
+ 1439  cd www/
+ 1440  ls
+ 1441  cd html/
+ 1442  ls
+ 1443  cat index.html 
+ 1444  cd /
+ 1445  ls
+ 1446  cd alidata/
+ 1447  ls
+ 1448  cd www/
+ 1449  ls
+ 1450  cd eway/
+ 1451  ls
+ 1452  mkdir spece
+ 1453  cd spece/
+ 1454  pwd
+ 1455  ifconfig
+ 1456  ls
+ 1457  cp FWLIB32.HTM index.html
+ 1458  ls
+ 1459  cd /home/rock
+ 1460  ls
+ 1461  rm -rf ImageMagick-6.9.3-8/
+ 1462  tar -xzvf ImageMagick.tar.gz 
+ 1463  ls
+ 1464  cd ImageMagick-6.9.3-8/
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  tar -xzvf pythonmagick_0.9.11.orig.tar.gz 
+ 1469  ls
+ 1470  cd p
+ 1471  cd PythonMagick-0.9.11/
+ 1472  ls
+ 1473  cd ..
+ 1474  ls
+ 1475  cd ImageMagick-6.9.3-8/
+ 1476  ls
+ 1477  ./configure
+ 1478  make
+ 1479  free -m
+ 1480  cd /opt/
+ 1481  ls
+ 1482  ls -a
+ 1483  mkdir /opt/images/ 
+ 1484  ls
+ 1485  cd images/
+ 1486  ls
+ 1487  dd if=/dev/zero of=/opt/images/swap bs=1024 count=2048000 
+ 1488  mkswap /opt/images/swap 
+ 1489  swapon /opt/images/swap
+ 1490  free -m
+ 1491  convert --version
+ 1492  updatedb
+ 1493  locate libMagickCore
+ 1494  ldconfig -p | grep -i libMagickCore-6.Q16.so.2
+ 1495  ldconfig -n /usr/local/lib/libMagickCore-6.Q16.so.2
+ 1496  ldconfig -p | grep -i libMagickCore-6.Q16.so.2
+ 1497  ldconfig -p | grep lib
+ 1498  ldconfig -p | grep -i libMagick
+ 1499  ldconfig 
+ 1500  ldconfig --help
+ 1501  cat /etc/ld.so.conf.d/libc.conf
+ 1502  locate libMagicCore
+ 1503  locate libMagickCore
+ 1504  cat /etc/ld.so.conf.d/libc.conf
+ 1505  convert --version
+ 1506  cd
+ 1507  cd /home/
+ 1508  ls
+ 1509  cd rock/
+ 1510  ls
+ 1511  cd oxfordtree/
+ 1512  ls
+ 1513  vim pic.py
+ 1514  vim test.py
+ 1515  vim oxford.py
+ 1516  df -h
+ 1517  top
+ 1518  ls
+ 1519  cd unrar/
+ 1520  ls
+ 1521  cd stage_1
+ 1522  ls
+ 1523  cd "stage 1的first words系列"
+ 1524  ls
+ 1525  cd 01-03six_in_a_bed/
+ 1526  ls
+ 1527  cp ../../../../oxford.py .
+ 1528  vim oxford.py 
+ 1529  ls
+ 1530  vim oxford.py 
+ 1531  python oxford.py 
+ 1532  cd /home/rock/
+ 1533  ls
+ 1534  history
+ 1535  cd -
+ 1536  ls
+ 1537  python oxford.py 
+ 1538  ls
+ 1539  cat oxford.py 
+ 1540  python oxford.py 
+ 1541  ls
+ 1542  vim oxford.py 
+ 1543  python oxford.py 
+ 1544  ls
+ 1545  vim oxford.py 
+ 1546  python oxford.py 
+ 1547  cd /tmp/
+ 1548  ls
+ 1549  rm *.pdf
+ 1550  ls
+ 1551  cd -
+ 1552  python oxford.py 
+ 1553  cd /tmp/
+ 1554  ls
+ 1555  rm *.pdf
+ 1556  ls
+ 1557  cd -
+ 1558  vim oxford.py 
+ 1559  python oxford.py 
+ 1560  cd /home/rock/
+ 1561  ls
+ 1562  cd oxfordtree/
+ 1563  ls
+ 1564  cd unrar/
+ 1565  ls
+ 1566  cp ../rename.py 
+ 1567  ls 
+ 1568  cp ../rename.py  .
+ 1569  ls
+ 1570  cat rename.py 
+ 1571  python rename.py 
+ 1572  ls
+ 1573  rm -rf *
+ 1574  ls
+ 1575  cd ..
+ 1576  ls
+ 1577  python unrarall.py 
+ 1578  ls
+ 1579  cd unrar/
+ 1580  ls
+ 1581  cp ../rename.py .
+ 1582  vim rename.py 
+ 1583  chmod 777 rename.py 
+ 1584  ./rename.py 
+ 1585  ls
+ 1586  cd "牛津阅读树stage 7的各个系列"
+ 1587  ls
+ 1588  cd ..
+ 1589  ls
+ 1590  cd "stage 8-9的true stories系列"
+ 1591  ls
+ 1592  cd ..
+ 1593  ls
+ 1594  ls stage_1
+ 1595  mv "stage 8-9的true stories系列" stage_8-9_true_stories
+ 1596  ls
+ 1597  mv true_stories stage_10-11_true_stories
+ 1598  ls
+ 1599  mv "津阅读树stage 7的各个系列
+ 1600  mv "津阅读树stage 7的各个系列" stage_7
+ 1601  mv "牛津阅读树stage 7的各个系列" stage_7
+ 1602  ls
+ 1603  ls -lX
+ 1604  uname -a
+ 1605  yum
+ 1606  file /bin/ls
+ 1607  uname -a
+ 1608  cd ..
+ 1609  ls
+ 1610  cd ..
+ 1611  ls
+ 1612  wget http://www.imagemagick.org/download/ImageMagick.tar.gz
+ 1613  ls
+ 1614  apt-get install pythonmagick
+ 1615  wget https://launchpad.net/ubuntu/+archive/primary/+files/pythonmagick_0.9.11.orig.tar.gz
+ 1616  ls
+ 1617  tar -xzvf ImageMagick.tar.gz 
+ 1618  df -h
+ 1619  ls
+ 1620  cd ImageMagick-6.9.3-8/
+ 1621  ls
+ 1622  make
+ 1623  make install
+ 1624  which convert
+ 1625  convert logo: logo.gif
+ 1626  convert --version
+ 1627  make check
+ 1628  convert --version
+ 1629  convert logo: logo.gif
+ 1630  ls
+ 1631  cd ..
+ 1632  ls
+ 1633  cd PythonMagick-0.9.11/
+ 1634  ls
+ 1635  ./configure 
+ 1636  make
+ 1637  cd ..
+ 1638  ls
+ 1639  wget http://www.imagemagick.org/download/python/PythonMagick-0.9.12.tar.gz
+ 1640  ls
+ 1641  rm -rf PythonMagick-0.9.1
+ 1642  tar -xvzf PythonMagick-0.9.12.tar.gz 
+ 1643  ls
+ 1644  cd PythonMagick-0.9.1
+ 1645  ls
+ 1646  rm -rf PythonMagick-0.9.11
+ 1647  LS
+ 1648  ls
+ 1649  cd PythonMagick-0.9.12/
+ 1650  ls
+ 1651  ./configure 
+ 1652  make
+ 1653  apt-get install boost
+ 1654  apt-get install boost-python
+ 1655  apt-get install libboost-python-dev
+ 1656  make
+ 1657  make install
+ 1658  cd ..
+ 1659  ls
+ 1660  rm pythonmagick_0.9.11.orig.tar.gz 
+ 1661  ls
+ 1662  wget https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs919/ghostscript-9.19-linux-x86_64.tgz
+ 1663  ifconfig
+ 1664  pwd
+ 1665  ls
+ 1666  tar -xzvf ghostscript-9.19-linux-x86_64.tgz 
+ 1667  ls
+ 1668  ls -l ghostscript-9.19-linux-x86_64.tgz 
+ 1669  rm -rf ghostscript-9.19-linux-x86_64*
+ 1670  ls
+ 1671  tar -xzvf ghostscript-9.19-linux-x86_64.tgz 
+ 1672  ls
+ 1673  cd ghostscript-9.19-linux-x86_64/
+ 1674  ls
+ 1675  cat README.txt 
+ 1676  ./gs-919-linux_x86_64 
+ 1677  pwd
+ 1678  cd /alidata/
+ 1679  ls
+ 1680  cd www
+ 1681  ls
+ 1682  python
+ 1683  pip
+ 1684  apt-get install python-pip
+ 1685  pip
+ 1686  pit install python-swiftclient
+ 1687  pip install python-swiftclient
+ 1688  swift
+ 1689  cd /
+ 1690  ls
+ 1691  cd /home/
+ 1692  ls
+ 1693  cd rock/
+ 1694  ls
+ 1695  cd 
+ 1696  ls
+ 1697  pwd
+ 1698  cd /home/
+ 1699  ls
+ 1700  cd rock/
+ 1701  ls
+ 1702  mkdir oxfordtree
+ 1703  cd oxfordtree/
+ 1704  pwd
+ 1705  ifconfig
+ 1706  pwd
+ 1707  df
+ 1708  df -h
+ 1709  ls
+ 1710  cd ..
+ 1711  clear
+ 1712  ls
+ 1713  rar
+ 1714  cd oxfordtree/
+ 1715  ls
+ 1716  rar
+ 1717  ls
+ 1718  牛津阅读树stage_1的各个系列[www.TopSage.com].rar stage_1.rar
+ 1719  ls
+ 1720  mv 牛津阅读树stage_1的各个系列[www.TopSage.com].rar stage_1.rar
+ 1721  ls
+ 1722  mv 牛津阅读树stage_2的各个系列[www.TopSage.com].rar stage_2.rar
+ 1723  ls
+ 1724  rar
+ 1725  ls
+ 1726  rar
+ 1727  unrar
+ 1728  rar
+ 1729  rar x stage_1.rar 
+ 1730  ls
+ 1731  rar
+ 1732  ls
+ 1733  rar
+ 1734  ls
+ 1735  rar
+ 1736  python
+ 1737  vim rename.py
+ 1738  which python
+ 1739  vim rename.py
+ 1740  ls
+ 1741  mv 牛津阅读树stage 1的各个系列 stage_1
+ 1742  mv 牛津阅读树stage 1的各个系列 stage_1/
+ 1743  mkdir stage_1
+ 1744  mv 牛津阅读树stage 1的各个系列 stage_1/
+ 1745  mv "牛津阅读树stage 1的各个系列" stage_1/
+ 1746  ls
+ 1747  cd stage_1/
+ 1748  ls
+ 1749  rar
+ 1750  cd ..
+ 1751  ls
+ 1752  rm -rf stage_1
+ 1753  ls
+ 1754  rar
+ 1755  python rename.py 
+ 1756  ls
+ 1757  rar
+ 1758  ls
+ 1759  rar x stage_1.rar 
+ 1760  rar
+ 1761  python rename.py 
+ 1762  rar
+ 1763  ls
+ 1764  牛津阅读树stage 1的各个系列
+ 1765  rm -rf "牛津阅读树stage 1的各个系列"
+ 1766  ls
+ 1767  rar
+ 1768  python rename.py 
+ 1769  ls
+ 1770  python rename.py 
+ 1771  ls
+ 1772  rar
+ 1773  rar x stage_1.rar unrar
+ 1774  ls
+ 1775  rar
+ 1776  mkdir unrar
+ 1777  rar
+ 1778  ls
+ 1779  python rename.py 
+ 1780  ls
+ 1781  ls -lx
+ 1782  ls -lX
+ 1783  rar
+ 1784  ls
+ 1785  rar x stage_1.rar unrar/
+ 1786  ls
+ 1787  cd unrar/
+ 1788  ls
+ 1789  cd ..
+ 1790  ls
+ 1791  rar
+ 1792  df -h
+ 1793  ls
+ 1794  cat rename.py 
+ 1795  rm -rf unrar/
+ 1796  mkdir unrar
+ 1797  python unrarall.py 
+ 1798  cat rename.py 
+ 1799  python unrarall.py 
+ 1800  ls
+ 1801  cd unrar/
+ 1802  ls
+ 1803  cd ..
+ 1804  ls
+ 1805  python unrarall.py 
+ 1806  ls
+ 1807  rar
+ 1808  ls
+ 1809  vim listFiles.py
+ 1810  rar
+ 1811  ls
+ 1812  cd /home/rock/
+ 1813  ls
+ 1814  cd ghostscript-9.19-linux-x86_64/
+ 1815  ls
+ 1816  cat README.txt 
+ 1817  echo $path
+ 1818  echo $PATH
+ 1819  cp gs-919-linux_x86_64 /usr/local/bin/
+ 1820  ls
+ 1821  cd /home/
+ 1822  ls
+ 1823  cd rock/
+ 1824  ls
+ 1825  rar
+ 1826  ls
+ 1827  cd oxfordtree/
+ 1828  ls
+ 1829  cat test.py 
+ 1830  vim test.py 
+ 1831  ls
+ 1832  mkdir scripts
+ 1833  mv ../*.py .
+ 1834  ls
+ 1835  mv *.py scripts/
+ 1836  ls
+ 1837  mv 1900.png scripts/
+ 1838  ls
+ 1839  cd scripts/
+ 1840  rar
+ 1841  ls
+ 1842  python test.py 
+ 1843  ls
+ 1844  ls -lX
+ 1845  cp /tmp/aa.pdf .
+ 1846  ls
+ 1847  vim test.py 
+ 1848  python test.py 
+ 1849  cat test.py 
+ 1850  ls
+ 1851  python test.py 
+ 1852  cd /usr/local/bin/
+ 1853  ls
+ 1854  which convert
+ 1855  cd /home/rock/
+ 1856  ls
+ 1857  cd ImageMagick-6.9.3-8/
+ 1858  pwd
+ 1859  echo $SHELL
+ 1860  pwd
+ 1861  cd
+ 1862  ls -a
+ 1863  vim .bashrc 
+ 1864  echo $LD_LIBRARY_PATH
+ 1865  vim .bashrc 
+ 1866  source .bashrc
+ 1867  vim .bashrc 
+ 1868  source .bashrc
+ 1869  echo $PATH
+ 1870  cd /home/
+ 1871  ls
+ 1872  cd rock/
+ 1873  ls
+ 1874  cd oxfordtree/
+ 1875  ls
+ 1876  cd scripts/
+ 1877  ls
+ 1878  python test.py 
+ 1879  cd /home/rock/
+ 1880  ls
+ 1881  cd oxfordtree/
+ 1882  vim rename.py 
+ 1883  ls
+ 1884  cp rename.py unrarall.py
+ 1885  vim unrarall.py 
+ 1886  ls
+ 1887  vim unrarall.py 
+ 1888  df -h
+ 1889  ls
+ 1890  ls unrar
+ 1891  rar
+ 1892  python
+ 1893  pip install pyPdf
+ 1894  python
+ 1895  ls
+ 1896  ls unrar
+ 1897  ls -lx
+ 1898  rar
+ 1899  ls -lX
+ 1900  ls
+ 1901  ls unrar
+ 1902  rar
+ 1903  cd unrar/
+ 1904  ls
+ 1905  cd stage\ 8-9的true\ stories系列/
+ 1906  ls
+ 1907  cd ..
+ 1908  ls
+ 1909  rar
+ 1910  ls
+ 1911  cd stage_1
+ 1912  ls
+ 1913  cd "stage 1的first words系列"
+ 1914  ls
+ 1915  cd 01-03six_in_a_bed/
+ 1916  ls
+ 1917  python oxford.py 
+ 1918  cd /tmp
+ 1919  s
+ 1920  ls
+ 1921  ls -l *.pdf
+ 1922  mv 0EFyLN6.pdf aa.pdf
+ 1923  ls
+ 1924  cd -
+ 1925  ls
+ 1926  vim oxford.py 
+ 1927  chmod a+x oxford.py 
+ 1928  ./oxford.py 
+ 1929  vim oxford.py 
+ 1930  ./oxford.py 
+ 1931  cp /tmp/aa.pdf .
+ 1932  vim oxford.py 
+ 1933  ls
+ 1934  cat oxford.py 
+ 1935  ./oxford.py 
+ 1936  vim oxford.py 
+ 1937  ./oxford.py 
+ 1938  ls
+ 1939  vim test.py
+ 1940  ifconfig
+ 1941  pwd
+ 1942  cp /home/rock/oxfordtree/1900.png inx.png
+ 1943  ls
+ 1944  cat test.py 
+ 1945  vim test.py 
+ 1946  python test.py 
+ 1947  ls
+ 1948  ls -l
+ 1949  cat test.py 
+ 1950  ls
+ 1951  cat oxford.py 
+ 1952  source ~/.bashrc
+ 1953  python test.py 
+ 1954  ls
+ 1955  cat test.py 
+ 1956  ls
+ 1957  ls -a
+ 1958  rar
+ 1959  vim .bashrc
+ 1960  ls
+ 1961  cd /home/rock/
+ 1962  ls
+ 1963  cd oxfordtree/
+ 1964  ls
+ 1965  cd scripts/
+ 1966  ls
+ 1967  python test.py 
+ 1968  cd /home/rock/
+ 1969  ls
+ 1970  cd oxfordtree/
+ 1971  ls
+ 1972  cd unrar/
+ 1973  ls
+ 1974  cd ..
+ 1975  ls
+ 1976  cd scripts/
+ 1977  ls
+ 1978  rar
+ 1979  ls
+ 1980  cat test.py 
+ 1981  ls
+ 1982  ls -l
+ 1983  python test.py 
+ 1984  echo $MAGIC_HOME
+ 1985  echo $PATH
+ 1986  echo $MAGICK_HOME
+ 1987  tail ~/.bashrc
+ 1988  echo $LD_LIBRARY_PATH
+ 1989  chmod 777 test.py 
+ 1990  ls
+ 1991  ./test.py 
+ 1992  vim test.py 
+ 1993  which python
+ 1994  vim test.py 
+ 1995  ./test.py 
+ 1996  rar
+ 1997  echo $DISPLAY
+ 1998  CD
+ 1999  cd
+ 2000  vim .bashrc 
+ 2001  echo $DISPLAY
+ 2002  cd
+ 2003  ls
+ 2004  cd /home/rock/
+ 2005  ls
+ 2006  cd oxfordtree/
+ 2007  ls
+ 2008  cd scripts/
+ 2009  ls
+ 2010  cat test.py 
+ 2011  ./test.py 
+ 2012  ls
+ 2013  cd ..
+ 2014  ls
+ 2015  cd ..
+ 2016  ls
+ 2017  python --version
+ 2018  python
+ 2019  ls
+ 2020  cd oxfordtree/
+ 2021  ls
+ 2022  cd scripts/
+ 2023  ls
+ 2024  convert aa.pdf aaa.png
+ 2025  convert
+ 2026  gs
+ 2027  cd ..
+ 2028  ls
+ 2029  cd ..
+ 2030  ls
+ 2031  cd ghostscript-9.19-linux-x86_64/
+ 2032  ls
+ 2033  gs-919-linux_x86_64 
+ 2034  gs-919-linux_x86_64  --help
+ 2035  ls
+ 2036  cd ..
+ 2037  ls
+ 2038  cd oxfordtree/scripts/
+ 2039  ls
+ 2040  onvert -density 300 aa.pdf test.png
+ 2041  convert -density 300 aa.pdf test.png
+ 2042  convert -density 300 aa.pdf
+ 2043  convert -density 300  1900.png 1900.jpg
+ 2044  ls
+ 2045  ls -l
+ 2046  convert aa.pdf aa.png -debug all
+ 2047  ls
+ 2048  cd ..
+ 2049  ls
+ 2050  cd ..
+ 2051  ls
+ 2052  find . -name delegates.xml
+ 2053  vim ./ImageMagick-6.9.3-8/config/delegates.xml
+ 2054  cd /usr/local/bin/
+ 2055  ls
+ 2056  mv gs-919-linux_x86_64 gs
+ 2057  cd -
+ 2058  ls
+ 2059  cd oxfordtree/
+ 2060  ls
+ 2061  cd scripts/
+ 2062  ls
+ 2063  ./test.py 
+ 2064  ls
+ 2065  cat test.py 
+ 2066  ls
+ 2067  ls -lX
+ 2068  ls
+ 2069  cd ..
+ 2070  ls
+ 2071  cd ..
+ 2072  ls
+ 2073  history
+ 2074  ls
+ 2075  history >> oshistory.txt

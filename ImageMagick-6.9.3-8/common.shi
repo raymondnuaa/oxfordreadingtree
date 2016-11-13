@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/rock/ImageMagick-6.9.3-8'
+top_builddir='/home/rock/ImageMagick-6.9.3-8'
+
+set -a
+COMPARE="/home/rock/ImageMagick-6.9.3-8/utilities/compare"
+COMPOSITE="/home/rock/ImageMagick-6.9.3-8/utilities/composite"
+CONJURE="/home/rock/ImageMagick-6.9.3-8/utilities/conjure"
+CONVERT="/home/rock/ImageMagick-6.9.3-8/utilities/convert"
+DISPLAY="/home/rock/ImageMagick-6.9.3-8/utilities/display"
+IDENTIFY="/home/rock/ImageMagick-6.9.3-8/utilities/identify"
+MONTAGE="/home/rock/ImageMagick-6.9.3-8/utilities/montage" 
+VALIDATE="/home/rock/ImageMagick-6.9.3-8/tests/validate"
+DRAWTEST="/home/rock/ImageMagick-6.9.3-8/tests/drawtest"
+WANDTEST="/home/rock/ImageMagick-6.9.3-8/tests/wandtest"
+LD_LIBRARY_PATH="/home/rock/ImageMagick-6.9.3-8/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/rock/ImageMagick-6.9.3-8/coders"
+MAGICK_CONFIGURE_PATH="/home/rock/ImageMagick-6.9.3-8/config:/home/rock/ImageMagick-6.9.3-8/config"
+MAGICK_FILTER_MODULE_PATH="/home/rock/ImageMagick-6.9.3-8/filters"
+PATH="/home/rock/ImageMagick-6.9.3-8/utilities:/home/rock/ImageMagick-6.9.3-8/tests:${PATH}"
+set +a
